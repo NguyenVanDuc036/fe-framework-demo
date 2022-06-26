@@ -1,0 +1,15 @@
+
+<div class="row" >
+    <?php foreach ($this->Product as $pro): ?>
+        <div class="card col-3" >
+            <div class="card-header" >
+                <img src = <?php echo $pro["srcImg"]?> width="200" />
+            </div>
+            <div class="card-body" >
+                <p><?php echo $pro["name"]?></p>
+                <p><?php echo $pro["price"]?></p>
+            </div>
+        </div>
+    <?php endforeach; ?>
+    </div>
+</div>
